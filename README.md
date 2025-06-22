@@ -1,7 +1,6 @@
-Task 2 – Tech Class Feedback Form 📝
+Task 2 – Contact Form 📝
 
-This is a simple HTML feedback form created as part of the Upskill Web Development Track (Week 2).
-
+This is a simple HTML feedback form.
 It allows learners to submit structured feedback after a tech class session, including details like their learning track, satisfaction level, and suggestions for improvement.
 
 
@@ -26,13 +25,33 @@ It allows learners to submit structured feedback after a tech class session, inc
 The form uses [FormSubmit](https://formsubmit.co) to send form data to the developer’s email address without needing a backend.
 
 ```html
-<form action="https://formsubmit.co/your-email" method="POST">
+<form action="https://formsubmit.co/2be2614ebe443d0633258d9535adc64f" method="POST">
 ```
 
 🔒 CAPTCHA is enabled to reduce spam.  
 🚀 After submission, users are redirected to `Thankyou.html`.
 
----
+🌐 Live Demo
+
+[Click here to view the live feedback form](https://gracefulmara.github.io/task2-contactform/)
+
+📸 Screenshots
+
+📝 Feedback Form – Top Section
+[Task 2 Demo – Feedback Form](./task2-demo.png)
+
+> This section of the form collects the user's name, email, and phone number, and allows them to select their learning track. Fieldsets and labels are used to improve structure and accessibility.
+
+📝 Feedback Form – Continued
+[Task 2 Demo – Continued](./task2-demo2.png)
+
+> This part of the form includes checkboxes for learning preferences, a dropdown rating system, and textareas for open-ended feedback. All fields are organized for clarity and user-friendliness.
+
+✅ Thank You Page
+[Thank You Page](./thankyoupage.png)
+
+> After submission, users are redirected to this confirmation page, acknowledging their feedback and closing the interaction on a positive note.
+
 
 ✅ What I Learned
 
