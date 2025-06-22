@@ -38,17 +38,17 @@ The form uses [FormSubmit](https://formsubmit.co) to send form data to the devel
 📸 Screenshots
 
 📝 Feedback Form – Top Section
-[Task 2 Demo – Feedback Form](./task2-demo.png)
+![Task 2 Demo – Feedback Form](./task2-demo.png)
 
 > This section of the form collects the user's name, email, and phone number, and allows them to select their learning track. Fieldsets and labels are used to improve structure and accessibility.
 
 📝 Feedback Form – Continued
-[Task 2 Demo – Continued](./task2-demo2.png)
+![Task 2 Demo – Continued](./task2-demo2.png)
 
 > This part of the form includes checkboxes for learning preferences, a dropdown rating system, and textareas for open-ended feedback. All fields are organized for clarity and user-friendliness.
 
 ✅ Thank You Page
-[Thank You Page](./thankyoupage.png)
+![Thank You Page](./thankyoupage.png)
 
 > After submission, users are redirected to this confirmation page, acknowledging their feedback and closing the interaction on a positive note.
 
