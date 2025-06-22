@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Class Feedback Form</title>
+</head>
+
+<body>
+    <h1>Tech Class Feedback Form</h1>
+    <p>We’d love to hear your thoughts about the session! Please fill in the form below — it takes less than 2 minutes.</p>
+
+    <form id="feedbackForm" 
+          action="https://formsubmit.co/aronumarachi01@gmail.com" 
+          method="POST" 
+          enctype="multipart/form-data" 
+          target="_blank">
+
+        <!-- CAPTCHA to prevent spam -->
+        <input type="hidden" name="_captcha" value="true">
+
+        <!-- Redirect to thank you page -->
+        <input type="hidden" name="_next" value="Thankyou.html">
+
+        <!-- Personal Info -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Your Name <span class="required-star">*</span></label><br>
+            <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+            <label for="email">Your Email <span class="required-star">*</span></label><br>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required><br><br>
+
+            <label for="phone">Phone Number <span class="required-star">*</span></label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+2347012345678" required><br><br>
+        </fieldset>
+
+        <!-- Learning Track -->
+        <fieldset>
+            <legend>Learning Track</legend>
+
+            <label>Which learning track are you currently in? <span class="required-star">*</span></label><br>
+            <input type="radio" id="DA" name="learningtrack" value="Data Analysis" required>
+            <label for="DA">Data Analysis</label><br>
+
+            <input type="radio" id="WD" name="learningtrack" value="Web Development">
+            <label for="WD">Web Development</label><br>
+
+            <input type="radio" id="PD" name="learningtrack" value="Product Design">
+            <label for="PD">Product Design</label><br><br>
+        </fieldset>
+
+        <!-- Focus Areas -->
+        <fieldset>
+            <legend>Learning Focus</legend>
+
+            <label>What areas would you like us to focus more on? (You can choose more than one)</label><br>
+            <input type="checkbox" id="concepts" name="focus[]" value="Understanding core concepts">
+            <label for="concepts">Understanding core concepts</label><br>
+
+            <input type="checkbox" id="projects" name="focus[]" value="More practical projects">
+            <label for="projects">More practical projects</label><br>
+
+            <input type="checkbox" id="resources" name="focus[]" value="More learning resources">
+            <label for="resources">More learning resources</label><br>
+
+            <input type="checkbox" id="pace" name="focus[]" value="Slower class pace">
+            <label for="pace">Slower class pace</label><br><br>
+        </fieldset>
+
+        <!-- Class Experience -->
+        <fieldset>
+            <legend>Class Experience</legend>
+
+            <label for="rating">How would you rate the class? <span class="required-star">*</span></label><br>
+            <select name="rating" id="rating" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Excellent – I learned a lot and would recommend it</option>
+                <option>Good – It met my expectations</option>
+                <option>Fair – It was okay but could be improved</option>
+                <option>Poor – I didn’t get much value</option>
+                <option>Not sure – I need time to reflect</option>
+            </select><br><br>
+
+            <label for="Positivecomments">What did you enjoy most?</label><br>
+            <textarea id="Positivecomments" name="Positivecomments" rows="5" placeholder="Your answer here..."></textarea><br><br>
+
+            <label for="improvement">Any suggestions for improvement?</label><br>
+            <textarea id="improvement" name="improvement" rows="5" placeholder="Your suggestions here..."></textarea><br><br>
+
+        </fieldset>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Send Feedback">
+    </form>
+    <br>
+</body>
+</html>
